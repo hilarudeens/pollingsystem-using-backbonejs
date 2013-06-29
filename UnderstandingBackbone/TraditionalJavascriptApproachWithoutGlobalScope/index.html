@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Polling System | Comparison of Javascript, JQuery and BackboneJs</title>
+		<link type="text/css" href="css/styles.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/counter.js"></script>		
+	</head>
+	<body>
+		<div class="pollBox">
+		<div class="pollHeader"><div>Books</div><div>Count</div><div class="pollHeaderBtnCol">Vote For</div></div>
+		<div class="pollList">
+			<div class="pollName">C</div>
+			<div id="cCount" class="pollCount">0</div>
+			<div class="pollButton">
+				<button onclick="updatePollCount('cCount');" >Vote</button>
+			</div>
+		</div>
+		<div class="pollList">
+			<div class="pollName">C++</div>
+			<div id="cCpp" class="pollCount">0</div>
+			<div class="pollButton">
+				<button onclick="updatePollCount('cCpp');" >Vote</button>
+			</div>
+		</div>
+		<div class="pollList">
+			<div class="pollName">Java</div>
+			<div id="cJava" class="pollCount">0</div>
+			<div class="pollButton">
+				<button onclick="updatePollCount('cJava');">Vote</button>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Polling System | Comparison of Javascript, JQuery and BackboneJs</title>
+		<link type="text/css" href="css/styles.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+				
+	</head>
+	<body>
+		<div class="pollBox">
+		<div class="pollHeader"><div>Books</div><div>Count</div><div class="pollHeaderBtnCol">Vote For</div></div>
+		<div class="pollList">
+			<div class="pollName">C</div>
+			<div id="cCount" class="pollCount">0</div>
+			<div class="pollButton">
+			    <!-- Here Inline Binding code onclick="updatePollCount('cCount');" is removed. -->
+				<button>Vote</button>
+			</div>
+		</div>
+		<div class="pollList">
+			<div class="pollName">C++</div>
+			<div id="cCpp" class="pollCount">0</div>
+			<div class="pollButton">
+				<!-- Here Inline Binding code onclick="updatePollCount('cCpp');" is removed. -->
+				<button>Vote</button>
+			</div>
+		</div>
+		<div class="pollList">
+			<div class="pollName">Java</div>
+			<div id="cJava" class="pollCount">0</div>
+			<div class="pollButton">
+				<!-- Here Inline Binding code onclick="updatePollCount('cCpp');" is removed. -->
+				<button>Vote</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/counter.js"></script>
+	</body>
+</html>
